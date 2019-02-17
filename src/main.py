@@ -1,6 +1,3 @@
-import pandas as pd
-
-
 # 1. load the data set
 # 2. clean the data set -- over fitting
 # 3. shuffle
@@ -9,12 +6,8 @@ import pandas as pd
 # 5. use Autoencoder to reduce dimensionality of data ?
 
 
-#
 
 
-def load_data():
-    df = pd.read_csv('../data/ENB2012_data.csv')
-    print()
+import numpy as np
+import pandas as pd
 
-
-load_data()
